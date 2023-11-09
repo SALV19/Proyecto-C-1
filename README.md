@@ -1,4 +1,5 @@
-# Videojuego de Rol pt2 wuwuwuwuwu
+# Videojuego de Rol pt2 
+
 Ahora sí. Voy a crear un videojuego estilo rol con puro texto porque está muy complicado añadirle graficos por el momento. 
 Objetivo: contar una historia y poder tener un juego estilo Pokemon o Shin Megami Tensei.
 
