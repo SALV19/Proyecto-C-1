@@ -21,3 +21,4 @@ Como jugador podrás definir el inicio de tu personaje y tomar desiciones que lo
 Tu personaje tiene mana, vida, y habilidades.
   Para usar las habilidades de tu personaje debes tener mp suficiente. 
   
+![Juego De rol pt 2 drawio](https://github.com/SALV19/Proyecto-C-1/assets/145412063/725a6484-0423-48da-83f6-35c9b2b9c4bc)
