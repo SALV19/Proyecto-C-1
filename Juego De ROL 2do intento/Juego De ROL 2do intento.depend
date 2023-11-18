@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1700345338 source:c:\users\santiago\documents\.tareas\c++\juego de rol 2do intento\main.cpp
+	<iostream>
+	<random>
+	"Persona.h"
+	"Heroe.h"
+	"Enemigo.h"
+	"Ataques.h"
+
+1700268500 c:\users\santiago\documents\.tareas\c++\juego de rol 2do intento\persona.h
+
+1700345208 c:\users\santiago\documents\.tareas\c++\juego de rol 2do intento\heroe.h
+
+1700266003 c:\users\santiago\documents\.tareas\c++\juego de rol 2do intento\enemigo.h
+
+1700344874 c:\users\santiago\documents\.tareas\c++\juego de rol 2do intento\ataques.h
+
