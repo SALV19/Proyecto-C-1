@@ -5,30 +5,28 @@
 
 using namespace std;
 
+// Clase padre de los seres vivos del juego, el jugador y los enemigos que almacena sus estadisticas.
 class Persona{
 private:
     string nombre;
     int nivel;
     int vida;
 
-    string *ataques;
-    int *dano;
-
 public:
-    Persona(string, int, int);
+    Persona(string, int);
     Persona(int, int);
 
-    void setNombre(string);
+
     string getNombre();
 
     int getVida();
+    void setVida(int);
 
     void recibirDano(int);
 };
 
-Persona::Persona(string _nombre, int _nivel, int _vida){
+Persona::Persona(string _nombre, int _vida){
     nombre = _nombre;
-    nivel = _nivel;
     vida = _vida;
 }
 Persona::Persona(int _nivel, int _vida){
@@ -36,9 +34,7 @@ Persona::Persona(int _nivel, int _vida){
     vida = _vida;
 }
 
-void Persona::setNombre(string _nombre){
-    nombre = _nombre;
-}
+
 
 string Persona::getNombre(){
     return nombre;
@@ -50,3 +46,8 @@ int Persona::getVida(){
 void Persona::recibirDano(int dano){
     vida -= dano;
 }
+
+void Persona::setVida(int _vida){
+    vida += _vida;
+}
+
