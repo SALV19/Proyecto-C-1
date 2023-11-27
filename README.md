@@ -12,4 +12,5 @@ En este proyecto pude incluir el funcionamiento de una tienda con objetos que pu
 
 Tu personaje tiene  vida, habilidades de combate y objetos que puedes comprar en la tienda.
   
-![Juego De rol pt 2 drawio](https://github.com/SALV19/Proyecto-C-1/assets/145412063/725a6484-0423-48da-83f6-35c9b2b9c4bc)
+![Juego De rol pt 2 drawio (1)](https://github.com/SALV19/Videojuego-de-ROL/assets/145412063/1bca4b35-778d-4653-87bb-aa44f6fa831e)
+
