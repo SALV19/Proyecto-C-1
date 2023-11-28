@@ -250,10 +250,15 @@ void pelear(Heroe p1, Enemigo enemy){
 
 // Selección de a donde ir / enemigos a los que te enfrentas
 int viajes(){
-    cout << "A donde te gustaria explorar: " << endl << "1. Bosque perdido" << endl<< "2. Tienda" << endl <<"3. Mansión Salvara" << endl;
     int res;
-    cin >> res;
-
+    while (true){
+        cout << "A donde te gustaria explorar: " << endl << "1. Bosque perdido" << endl<< "2. Tienda" << endl <<"3. Mansión Salvara" << endl;
+        cin >> res;
+        if (res > 0 && res <4){
+            break;
+        }
+    }
+    
     return res;
 }
 
